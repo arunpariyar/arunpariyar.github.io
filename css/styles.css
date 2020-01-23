@@ -1,0 +1,194 @@
+/* Fonts
+font-family: 'Megrim', cursive;
+font-family: 'Nunito', sans-serif;
+/* Global 
+====================================================================================== */
+html {
+    box-sizing: border-box;
+}
+*,*:before, *:after{
+    box-sizing: inherit;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    color: #011627;
+    font-family: 'Nunito', sans-serif;
+    font-size: 12;
+    line-height: 1.8;
+}
+
+.content-wrap{
+    max-width: 800px;
+    width: 85%;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+img {
+    width: 300px;
+}
+
+h1 {
+    font-family: 'Megrim', cursive;
+    font-size: 75px;
+    padding:5px;
+    margin: 0;
+    line-height: 1.3;
+}
+        
+h2 {
+    margin: 0;
+    font-size: 20px;
+}
+
+header, footer{
+    color: #E8ECF7;
+}
+
+/* Introduction 
+====================================================================================== */
+.intro {
+    background:#011627;
+    color: #E8ECF7;
+    
+}
+/* Current Projects
+====================================================================================== */
+.current-projects{
+    background: #86A9CA;
+}
+/* .current-projects img{
+    float: left;
+    padding: 20px;
+} */
+
+.project{
+    overflow: hidden;
+}
+
+.project p {
+    padding-bottom:20px;
+}
+
+.btn {
+    color: #E8ECF7;
+    text-decoration: none;
+    padding:10px;
+    background:#011627;
+    border-radius: 15px;
+    
+}
+
+.project a:hover{
+    background:rgba(1, 22, 39, 80%);
+}
+
+.divider > section {
+    border-bottom: 1px dashed #011627;
+    padding: 20px;
+}
+
+.divider > section:last-of-type {
+    border-bottom: none;
+}
+
+
+
+/* Work Experience 
+====================================================================================== */
+.work-experience{
+    background: #E8ECF7;
+} 
+
+.together  h3 {
+    margin-bottom: 0;
+} 
+
+.together  h3+p {
+    font-style: italic;
+}    
+
+.skills  {
+    font-weight: bold;
+}
+.together h3 ~ p {
+        margin: 0;
+    }
+
+/* Education 
+====================================================================================== */
+.education{
+    background: #416397;
+}
+
+.together h3 ~ p {
+        margin: 0;
+    }
+/* footer
+====================================================================================== */
+
+footer{
+    background: #011627;
+    text-align: center;
+    padding: 0%;
+}
+
+.contact-links {
+    list-style-type: none; 
+    justify-content: center;
+}
+
+.contact-links a {
+    display: inline-block;
+    padding: 5px;
+    color: #FF9F1C;
+    text-decoration: none;
+    justify-content: center;
+}
+
+/* Responsive Design Code
+====================================================================================== */
+
+@media screen and (min-width:750px){
+
+    header h1 {
+        font-size: 90px;
+        padding:20px;
+    }
+
+    h2{
+        margin: 0;
+        font-size: 25px;
+    }
+
+    .current-projects img{
+        float: left;
+        padding: 20px;
+    }
+
+    .job-container {
+        display:grid;
+        grid-template-columns: 1fr 2fr;
+        column-gap: 30px;    
+    }
+
+    header, footer {
+        text-align: center;
+    }
+    .contact-links {
+        display: flex;
+        list-style-type: none;
+        justify-content: center;
+    }
+
+    .contact-links a {
+        display: inline-block;
+        padding: 20px;
+        color: #FF9F1C;
+        text-decoration: none;
+        justify-content: center;
+    }
+
+}
