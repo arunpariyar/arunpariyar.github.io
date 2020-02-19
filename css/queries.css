@@ -1,0 +1,115 @@
+@media only screen and (max-width: 1200px) {
+    .hero-title { 
+        padding: 10px;
+    }
+   
+
+
+
+@media only screen and (max-width: 1024px) {
+
+    .hero-title { 
+        padding: 40px;
+        font-size: 90%;
+    }
+
+    body {font-size: 18px;}
+
+}
+
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 190%;
+    }
+
+    h2 {
+        padding: 20px;
+    }
+
+  /*   .main-nav {
+        width: 95%;
+    } */
+
+    .about-contents {
+        display: block;
+        padding-bottom: 5px;
+        text-align: center;   
+    }
+
+    .bio {
+        text-align: justify;
+        width: 80%; 
+        font-size: 90%;   
+    }
+    .bio-link {
+        text-align: center;
+    }
+    
+    .logo { 
+        width: 130px;
+    }
+
+    
+    .award-box {
+        padding: 10px;
+        font-size: 90%;
+        
+    }
+
+    .award-box p {
+        width: 90%;
+    }
+
+    .job-item {
+        font-size: 85%;
+        line-height: 1.5;
+        padding: 0px 20px;
+    }
+   
+}
+
+@media only screen and (max-width: 480px) {
+
+    h1 {
+        font-size: 125%;
+    }
+    .bio-photo {
+        height: 450px;
+        padding: 10px;
+    }
+
+
+    .bio {
+        margin: 0px 40px;
+        line-height: 1.75;
+        font-size: 90%;
+    }
+
+     .bio-link { margin: 10px; }
+
+     .edu-box p {font-size: 80%;}
+
+     .award-box {
+        display:block;
+        text-align: center;
+    }
+
+    .award-logo { 
+        text-align: center;
+    }
+
+    .award-box {
+        text-align: justify;
+    }
+
+     .logo {
+        float: none;
+        padding: 30px;
+    }
+
+    .job-container {
+        display: block;
+
+    }
+   
+}
