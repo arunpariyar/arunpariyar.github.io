@@ -324,6 +324,21 @@ margin-bottom: 0;
 font-size: 70%;
 }
 
+.section-contact ul{
+    margin: 0;
+    padding: 0;
+}
+
+.footer-links {
+    text-align: center;
+    list-style-type: none;
+}
+
+.footer-links li {
+    display: inline-block;
+    padding: 10px;
+}
+
 .contact {
     color: #fff;
     margin-bottom: 0;
