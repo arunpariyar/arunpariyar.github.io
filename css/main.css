@@ -43,12 +43,11 @@ header {
 
 header nav ul {
     float: right;
+    overflow: hidden;  
 }
 
 .main-nav {
-    width: 95%;
-    overflow: hidden;
-    /* text-align: center; */
+    padding: 0px 2%;
 }
 
 .main-nav li {
@@ -62,6 +61,29 @@ header nav ul {
 
 .main-nav li a {
     padding: 15px;   
+}
+
+/* Mobille Navigation */
+
+
+.mobile-nav-icon {
+    float: right;
+    cursor: pointer;
+    padding-top: 30px;
+    border: none;
+    font-size: 180%;
+    color: #fff;
+    padding-right: 45px;
+    display: none;
+}
+.mobile-nav-icon:hover {
+    border: none;
+    
+}
+ 
+nav a {
+    border:none;
+    color: #fff;
 }
 
 /* ========================================*/ 
